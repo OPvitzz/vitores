@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+    cadeia sala
+    cadeia alunos[15]={"alisson", "erick", "guilherme", "gabriel", "rodrigo", "joão victor", "joão pinto", "joão pedro", "renan", "riquelme", "vinicius", "joyce", "igor", "carlos", "gabriele"}
+    para(inteiro i=0; i<=14 ; i++){
+      escreva("\n", alunos[i])
+    }
+  }
+}
